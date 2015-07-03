@@ -1,0 +1,45 @@
+﻿
+.sa {
+    background-color: #ffffd1; 
+    padding: 0.25em 0.5em; 
+    margin-bottom: 0.25em; 
+    margin-top: -0.5em;
+    display: inline-block; 
+    border: 1px #aaa solid; 
+    border-radius: 6px;
+}
+
+.sa-shorttext {
+    display: none;
+}
+.sa-short .sa-shorttext {
+    display: inline;
+}
+.sa-longtext {
+    display: none;
+}
+.sa-long .sa-longtext {
+    display: inline;
+}
+.sa-icon {
+    color: #d60a55; 
+    margin-right: 0.5em;
+}
+
+.sa-text-toggle {
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    color: #d60a55; 
+}
+
+.sa-short .sa-text-toggle:after {
+    content: "Read more";
+}
+.sa-long .sa-text-toggle:after {
+    content: "Read less";
+}
+
+

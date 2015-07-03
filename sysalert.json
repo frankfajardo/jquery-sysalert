@@ -1,0 +1,6 @@
+﻿{
+    "shortAlert": "Sample alert heading",
+    "longAlert": "This is a sample alert. It can be as long as you like. It can optional contain HTML tags if you set allowHtml to 'true'. Refer to the README document for details.",
+    "postFrom": "2015-07-01T00:00:01",
+    "postUpto": "2015-07-05T00:00:00"
+}
