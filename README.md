@@ -18,7 +18,7 @@ This jQuery plugin is made to allow quickly adding user notifications to a websi
 
 ## Options ##
 
-* `sourceUrl` - This is the URL to get your json file which defines your system alert. Defaults to `'/sysalert.json'`
+* `sourceUrl` - This is the URL to get your json file which defines your system alert. Defaults to `'sysalert.json'`
 * `sourceMethod` - The http method to use to retrieve your json file. Defaults to `'GET'`
 * `allowHtml` - This indicates if your system alert has embeded HTML tags. Defaults to `false`,
 * `complete` - This is the function to call on completion of sysAlert

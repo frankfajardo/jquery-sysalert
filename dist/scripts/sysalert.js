@@ -5,7 +5,7 @@
 
         // Default options.
         var settings = $.extend({
-            sourceUrl: '/sysalert.json',
+            sourceUrl: 'sysalert.json',
             sourceMethod: 'GET',
             allowHtml: false,
             complete: function () {}
