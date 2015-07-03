@@ -1,7 +1,20 @@
-﻿
+﻿/*! jQuery Validation Plugin - v1.11.0 - 2/4/2013
+* https://github.com/jzaefferer/jquery-validation
+* Copyright (c) 2013 Jörn Zaefferer; Licensed MIT */
+/*
+ * jQuery sysAlert Plugin v0.0.1
+ * https://github.com/frankfajardo/jquery-sysalert
+ *
+ * Developed by: Frank Fajardo
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
 (function ($) {
 
     $.fn.sysAlert = function (options) {
+        'use strict';
 
         // Default options.
         var settings = $.extend({
