@@ -26,6 +26,7 @@ This jQuery plugin is made to allow quickly adding user notifications to a websi
 ## JSON Content ##
 
 The JSON file may be named any name you like. But these are the properties sysAlert.js will look for:
+
 * `shortAlert` - *This is mandatory.* This is the alert message that is initially shown on the page. If `allowHtml` is `true`, this is interpreted as an HTML markup.
 * `longAlert` - *This is optional.* This is the alert message shown when the user expands the alert to read more information. If `allowHtml` is `true`, this is interpreted as an HTML markup.
 * `postFrom` - *This is optional.* This indicates when the alert becomes effective. It can be a date such as `2015-07-01` or a date\time such as `2015-07-01T00:00:01`. It not specified, it is assumed the alert is effective immediately.
