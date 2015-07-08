@@ -9,6 +9,11 @@ This jQuery plugin is made to allow quickly adding user notifications to a websi
 0.0.1
 
 
+## Quick Sample ##
+
+See [sample in plnkr] 
+
+
 ## Getting Started ##
 
 1. Copy the content of the `dist` folder into your project.
@@ -16,12 +21,14 @@ This jQuery plugin is made to allow quickly adding user notifications to a websi
 3. Define an element that will contain the system alert message. 
 4. Call sysAlert as follow: `$('your element selector').sysAlert({options})`
 
+
 ## Options ##
 
 * `sourceUrl` - This is the URL to get your json file which defines your system alert. Defaults to `'/sysalert.json'`
 * `sourceMethod` - The http method to use to retrieve your json file. Defaults to `'GET'`
 * `allowHtml` - This indicates if your system alert has embeded HTML tags. Defaults to `false`,
 * `complete` - This is the function to call on completion of sysAlert
+
 
 ## JSON Content ##
 
@@ -31,6 +38,7 @@ The JSON file may be named any name you like. But these are the properties sysAl
 * `longAlert` - *This is optional.* This is the alert message shown when the user expands the alert to read more information. If `allowHtml` is `true`, this is interpreted as an HTML markup.
 * `postFrom` - *This is optional.* This indicates when the alert becomes effective. It can be a date such as `2015-07-01` or a date\time such as `2015-07-01T00:00:01`. It not specified, it is assumed the alert is effective immediately.
 * `postUpto` - *This is mandatory.* This indicates when the alert expires. It has the same format as `postFrom`.
+
 
 ## IIS and JSON Files ##
 
@@ -44,8 +52,7 @@ If you are using IIS, it may not be configured to server static JSON files. To t
 </system.webServer>
 ```
 
-## To Do ##
 
-I hope to come up with a version of this plugin that can be packaged, when I find time.
 
+[sample in plnkr]:http://run.plnkr.co/plunks/wytJTIVQgGpaeOEMHXIf/
 
