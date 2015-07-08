@@ -54,5 +54,5 @@ If you are using IIS, it may not be configured to server static JSON files. To t
 
 
 
-[sample in plnkr]:http://run.plnkr.co/plunks/wytJTIVQgGpaeOEMHXIf/
+[sample in plnkr]:http://plnkr.co/edit/wytJTIVQgGpaeOEMHXIf?p=preview
 
