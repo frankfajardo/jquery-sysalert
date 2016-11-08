@@ -34,6 +34,7 @@
             url: settings.sourceUrl,
             type: settings.sourceMethod,
             dataType: 'json',
+            cache: false, // Do not use cached version of the JSON file
             success: function (sa) {
                 var from = sa.postFrom && new Date(sa.postFrom) || new Date();
                 var upto = new Date(sa.postUpto);
